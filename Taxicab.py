@@ -16,8 +16,8 @@ class Taxicab:
             self._odometer-=xmove
         self._x_coord+=xmove
     def move_y(self,ymove):
-        if ymove>=0
+        if ymove>==0:
             self._odometer+=ymove
-        else
+        else:
             self._odometer-=ymove
         self._y_coord+=ymove
