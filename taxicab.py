@@ -1,7 +1,7 @@
 class Taxicab:
     def __init__(self,x_coord,y_coord):
-        self._x_coord=0
-        self._y_coord=0
+        self._x_coord=x_coord
+        self._y_coord=y_coord
         self._odometer=0
     def get_x_coord(self):
         return self._x_coord
