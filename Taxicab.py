@@ -10,8 +10,14 @@ class Taxicab:
     def get_odometer(self):
         return self._y_coord
     def move_x(self,xmove):
-        self._odometer+=xmove
+        if xmove>=0
+            self._odometer+=xmove
+        else
+            self._odometer-=xmove
         self._x_coord+=xmove
     def move_y(self,ymove):
-        self._odometer+=ymove
+        if ymove>=0
+            self._odometer+=ymove
+        else
+            self._odometer-=ymove
         self._y_coord+=ymove
