@@ -8,7 +8,7 @@ class Taxicab:
     def get_y_coord(self):
         return self.y_coord
     def get_odometer(self):
-        return self.y_coord
+        return self.odometer
     def move_x(self,xmove):
         self.odometer+=xmove
         self.x_coord+=xmove
