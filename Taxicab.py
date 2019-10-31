@@ -22,8 +22,8 @@ class Taxicab:
             self._odometer-=ymove
         self._y_coord+=ymove
 
-cab = Taxicab(5,-8)
-cab.move_x(3)
-cab.move_y(-4)
-cab.move_x(-1)
-print(cab.get_odometer())
+#cab = Taxicab(5,-8)
+#cab.move_x(3)
+#cab.move_y(-4)
+#cab.move_x(-1)
+#print(cab.get_odometer())
